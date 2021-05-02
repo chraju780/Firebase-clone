@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    text-decoration: none;
+    
+}
+.wrapper{
+    display: flex;
+}
+
+.sidebar{
+    font-family: Roboto;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.459);
+    cursor: pointer;
+}
+.head p{
+    font-family: Roboto;
+    font-size: 2.3em;    
+}
+.projectoverview{
+    border-bottom: 1px solid rgba(153, 153, 153, 0.459);
+    color: white;
+}
+.sidebar{
+    background: #031525;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+#firebase{
+    height: 18px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-weight: 500;
+}
+.sidebar ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    color: white;
+}
+#build{
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+.sidebar ul {
+    font-weight: 600;
+    font-size: 24px;
+    display: block;
+}
+.sidebar ul li a{
+    font-size: 16px;
+    color: white;
+}
+.slidebar ul ul{
+    display: block;
+}
+.fas{
+    padding: 10px ;
+    color: white;
+}
+.sidebar ul ul li:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+}
+.projectoverview:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;   
+}
+#build:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;   
+}
